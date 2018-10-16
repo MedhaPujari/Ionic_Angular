@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Hosts
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <button ion-item no-lines style="background-color: rgb(165, 187, 194)" (click)="disp('Gemini')">      
+    Gemini
+    </button>
+    <button ion-item no-lines (click)="disp('NFS')">
+      NFS
+    </button>
+    <button ion-item no-lines style="background-color: rgb(98, 187, 209)" (click)="disp('IntFW')"> IntFW
+    </button>
+    <button ion-item  no-lines (click)="disp('ExtFW')"> ExtFW
+    </button>
+    <button ion-item no-lines style="background-color: rgb(165, 187, 194)" (click)="disp('DefaultGW')"> DefaultGW
+    </button>
+    <button ion-item no-lines (click)="disp('DMZ')"> DMZ
+    </button>
+
+  </ion-list>
+</ion-content>
